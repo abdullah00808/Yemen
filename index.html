@@ -5,57 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the beauty of Yemen, Italy, Mexico, and Japan with Noor Language School.">
     <title>Explore Yemen, Italy, Mexico, Japan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <header>
-        <nav class="navbar" aria-label="Main Navigation">
+        <nav class="navbar">
+            <h1 class="logo">World Explorer</h1>
             <ul>
-                <li><a href="#yemen" aria-label="Discover Yemen">Yemen</a></li>
-                <li><a href="#italy" aria-label="Discover Italy">Italy</a></li>
-                <li><a href="#mexico" aria-label="Discover Mexico">Mexico</a></li>
-                <li><a href="#japan" aria-label="Discover Japan">Japan</a></li>
+                <li><a href="#yemen">Yemen</a></li>
+                <li><a href="#italy">Italy</a></li>
+                <li><a href="#mexico">Mexico</a></li>
+                <li><a href="#japan">Japan</a></li>
             </ul>
+            <button id="theme-toggle" aria-label="Toggle dark and light mode">🌗</button>
         </nav>
     </header>
 
     <!-- Home Section -->
     <main>
         <section class="home-section">
-            <h1>Welcome to International Day by Noor Language School</h1>
-            <p>Discover the uniqueness of Yemen, Italy, Mexico, and Japan.</p>
+            <div class="container">
+                <h1>Welcome to International Day</h1>
+                <p>Explore the diverse cultures of Yemen, Italy, Mexico, and Japan. Immerse yourself in their rich history, stunning landmarks, and unique traditions.</p>
+            </div>
         </section>
 
         <!-- Country Sections -->
         <article id="yemen" class="country-section">
-            <h2>Yemen</h2>
-            <img src="yemen.jpg" alt="Historic architecture in Yemen" loading="lazy">
-            <p>Yemen is known for its ancient culture, stunning architecture, and breathtaking landscapes. Visit the old city of Sana’a, a UNESCO World Heritage Site, or explore the biodiversity of Socotra Island.</p>
+            <div class="container">
+                <h2>Yemen</h2>
+                <img src="yemen.jpg" alt="Historic architecture in Yemen" loading="lazy">
+                <p>Yemen is known for its ancient culture, stunning architecture, and breathtaking landscapes. Visit the old city of Sana’a, a UNESCO World Heritage Site, or explore the biodiversity of Socotra Island.</p>
+            </div>
         </article>
 
         <article id="italy" class="country-section">
-            <h2>Italy</h2>
-            <img src="italy.jpg" alt="The Colosseum in Rome, Italy" loading="lazy">
-            <p>Italy is the birthplace of the Renaissance and home to magnificent landmarks like the Colosseum, Venice canals, and Vatican City. Enjoy the delicious cuisine, from pasta to pizza.</p>
+            <div class="container">
+                <h2>Italy</h2>
+                <img src="italy.jpg" alt="The Colosseum in Rome, Italy" loading="lazy">
+                <p>Italy is the birthplace of the Renaissance and home to magnificent landmarks like the Colosseum, Venice canals, and Vatican City. Enjoy the delicious cuisine, from pasta to pizza.</p>
+            </div>
         </article>
 
         <article id="mexico" class="country-section">
-            <h2>Mexico</h2>
-            <img src="mexico.jpg" alt="Traditional Mexican festival" loading="lazy">
-            <p>Mexico offers vibrant traditions, stunning beaches, and rich history. Visit ancient Mayan ruins or enjoy colorful festivals like Día de los Muertos.</p>
+            <div class="container">
+                <h2>Mexico</h2>
+                <img src="mexico.jpg" alt="Traditional Mexican festival" loading="lazy">
+                <p>Mexico offers vibrant traditions, stunning beaches, and rich history. Visit ancient Mayan ruins or enjoy colorful festivals like Día de los Muertos.</p>
+            </div>
         </article>
 
         <article id="japan" class="country-section">
-            <h2>Japan</h2>
-            <img src="japan.jpg" alt="Cherry blossoms and a temple in Japan" loading="lazy">
-            <p>Japan blends ancient traditions with futuristic innovation. From cherry blossoms to the bustling streets of Tokyo, there’s something for everyone.</p>
+            <div class="container">
+                <h2>Japan</h2>
+                <img src="japan.jpg" alt="Cherry blossoms and a temple in Japan" loading="lazy">
+                <p>Japan blends ancient traditions with futuristic innovation. From cherry blossoms to the bustling streets of Tokyo, there’s something for everyone.</p>
+            </div>
         </article>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Explore the World. All Rights Reserved.</p>
+        <p>&copy; 2024 World Explorer. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
